@@ -5,6 +5,8 @@
  * Implementación de una cola de prioridad basada en un heap vectorial.
  * @param <E> El tipo de elementos que contendrá la cola de prioridad.
  */
+import java.lang.reflect.Array;
+
 public class VectorHeap<E extends Comparable<E>> {
     private E[] data;
     private int size;
@@ -13,8 +15,13 @@ public class VectorHeap<E extends Comparable<E>> {
      * Crea una nueva cola de prioridad basada en un heap vectorial con una capacidad inicial de 10.
      */
     public VectorHeap() {
-        data = (E[]) new Comparable[10];
+        data = createArray(10);
         size = 0;
+    }
+
+    @SuppressWarnings("unchecked")
+    private E[] createArray(int length) {
+        return (E[]) Array.newInstance(Comparable.class, length);
     }
 
     /**
@@ -73,7 +80,7 @@ public class VectorHeap<E extends Comparable<E>> {
      * Reasigna la capacidad del heap vectorial cuando se llena.
      */
     public void reallocate() {
-        E[] newData = (E[]) new Comparable[data.length * 2];
+        E[] newData = createArray(data.length * 2);
         System.arraycopy(data, 0, newData, 0, data.length);
         data = newData;
     }
