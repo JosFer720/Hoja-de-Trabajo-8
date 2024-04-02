@@ -1,0 +1,21 @@
+Juan Perez, fractura de pierna, C
+Maria Ramirez, apendicitis, A
+Lorenzo Toledo, chikungunya, E
+Carmen Sarmientos, dolores de parto, B
+Pedro Martinez, quemadura de segundo grado, A
+Ana Garcia, crisis asmatica, A
+Luis Fernandez, fiebre alta, C
+Sofia Lopez, dolor abdominal, B
+Carlos Sanchez, intoxicacion alimentaria, A
+Maria Rodriguez, dolor de cabeza intenso, C
+Javier Hernandez, fractura de brazo, B
+Elena Gomez, ataque de ansiedad, D
+Manuel Diaz, dolor lumbar, E
+Lucia Ruiz, alergia severa, D
+David Perez, hemorragia nasal, A
+Laura Fernandez, herida profunda, B
+Daniel Ramirez, dolor de muelas, C
+Ana Maria, picadura de abeja, E
+Jose Luis, accidente de trafico, A
+Martina Castro, mareos frecuentes, D
+Martina Castro, mareos frecuentes, D
